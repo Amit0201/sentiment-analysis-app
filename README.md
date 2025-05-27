@@ -25,6 +25,7 @@ Key features:
 pip install -r requirements.txt
 python train_model.py
 streamlit run app.py
+```
 
 ## 🪢 Stremlit app link
 https://sentiment-analysis-app-b7pqwbnseb58xbqjw2x2ez.streamlit.app/
