@@ -1,6 +1,5 @@
 # 🎬 Sentiment Analysis on Movie Reviews
-
-This is a simple web app that predicts whether a movie review is positive or negative using Natural Language Processing.
+A web app that classifies movie reviews into positive or negative sentiments using a machine learning model trained on movie review data. Built with Streamlit for an interactive user experience, including text input and speech recognition features, and natural language processing.
 
 ## 🔧 Tech Stack
 - Python
@@ -8,6 +7,14 @@ This is a simple web app that predicts whether a movie review is positive or neg
 - Streamlit
 - TF-IDF Vectorization
 - Logistic Regression
+
+## 📖 Project Description
+This app uses a pre-trained sentiment analysis model based on a logistic regression classifier. It analyzes movie reviews entered by the user and predicts whether the sentiment is positive or negative. The app also displays the prediction confidence and provides a clean, user-friendly interface.
+Key features:
+- Text input for review analysis
+- Speech-to-text input for hands-free review entry
+- Real-time prediction with confidence scores
+- Interactive and attractive UI with animations
 
 ## 🧠 Model Performance
 - Accuracy on test set: ~85%
@@ -18,3 +25,6 @@ This is a simple web app that predicts whether a movie review is positive or neg
 pip install -r requirements.txt
 python train_model.py
 streamlit run app.py
+
+## 🪢 Stremlit app link
+https://sentiment-analysis-app-b7pqwbnseb58xbqjw2x2ez.streamlit.app/
